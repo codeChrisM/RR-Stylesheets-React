@@ -1,0 +1,23 @@
+.beat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.beat-wrapper .beat {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
